@@ -22,13 +22,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
     background-color: #1F2937;
     color: white;
+    padding: 32px 64px;
 }
 header ul{
     display: flex;
     gap: 1em;
+}
+header li a{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 header a{
     color: white;
@@ -38,6 +42,7 @@ header a{
     height: 100vh;
     overflow: hidden;
     background-color: #1F2937;
+    padding: 0 64px;
     
 }
 .left {
@@ -47,13 +52,14 @@ header a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 16px;
     gap: 1em;
+    
 }
 .hero-main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    
 }
 .hero-sec {
     font-size: 18px;
