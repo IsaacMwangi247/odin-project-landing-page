@@ -91,16 +91,30 @@ button {
     width: 90%;
     margin: 0 auto;
     
+    display: flex;  
+    flex-direction: column;
+}
+.card-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 32px;
+    
+
 }
 .cards {
     display: flex; 
-    gap: 1em; 
+    gap: 1.5em; 
+    justify-content: center;
+    margin-bottom: 32px;
 }
 .card-item {
-    width: auto;
+    width: 200px;
+    text-align: center;
 }
 .card-image {
-    width: 100%;
+    width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 20px;
