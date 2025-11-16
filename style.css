@@ -137,12 +137,12 @@ button {
     padding: 32px 0;
 }
 .q-width {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
 }
 .q-text {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
@@ -190,4 +190,5 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: small;
 }
