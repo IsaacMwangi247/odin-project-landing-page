@@ -24,7 +24,8 @@ header {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 16px 64px;
+    padding: 0 64px;
+    padding-top: 16px;
 }
 header ul{
     display: flex;
